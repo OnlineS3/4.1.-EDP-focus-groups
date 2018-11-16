@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/40741/tags/4.8/wp-includes/SimplePie/Cache
+END
+Memcache.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/40741/tags/4.8/wp-includes/SimplePie/Cache/Memcache.php
+END
+DB.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/40741/tags/4.8/wp-includes/SimplePie/Cache/DB.php
+END
+MySQL.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/40741/tags/4.8/wp-includes/SimplePie/Cache/MySQL.php
+END
+Base.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/40741/tags/4.8/wp-includes/SimplePie/Cache/Base.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/40741/tags/4.8/wp-includes/SimplePie/Cache/File.php
+END

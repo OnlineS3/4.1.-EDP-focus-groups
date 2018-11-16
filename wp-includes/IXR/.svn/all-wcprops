@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/40741/tags/4.8/wp-includes/IXR
+END
+class-IXR-request.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/40741/tags/4.8/wp-includes/IXR/class-IXR-request.php
+END
+class-IXR-error.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/40741/tags/4.8/wp-includes/IXR/class-IXR-error.php
+END
+class-IXR-value.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/40741/tags/4.8/wp-includes/IXR/class-IXR-value.php
+END
+class-IXR-date.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/40741/tags/4.8/wp-includes/IXR/class-IXR-date.php
+END
+class-IXR-client.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/40741/tags/4.8/wp-includes/IXR/class-IXR-client.php
+END
+class-IXR-base64.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/40741/tags/4.8/wp-includes/IXR/class-IXR-base64.php
+END
+class-IXR-message.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/40741/tags/4.8/wp-includes/IXR/class-IXR-message.php
+END
+class-IXR-clientmulticall.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/40741/tags/4.8/wp-includes/IXR/class-IXR-clientmulticall.php
+END
+class-IXR-server.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/40741/tags/4.8/wp-includes/IXR/class-IXR-server.php
+END
+class-IXR-introspectionserver.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/40741/tags/4.8/wp-includes/IXR/class-IXR-introspectionserver.php
+END

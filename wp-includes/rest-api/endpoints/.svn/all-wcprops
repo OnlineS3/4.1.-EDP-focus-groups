@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints
+END
+class-wp-rest-attachments-controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php
+END
+class-wp-rest-post-statuses-controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php
+END
+class-wp-rest-settings-controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php
+END
+class-wp-rest-revisions-controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php
+END
+class-wp-rest-users-controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php
+END
+class-wp-rest-controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints/class-wp-rest-controller.php
+END
+class-wp-rest-comments-controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php
+END
+class-wp-rest-taxonomies-controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php
+END
+class-wp-rest-post-types-controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php
+END
+class-wp-rest-posts-controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php
+END
+class-wp-rest-terms-controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/40741/tags/4.8/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php
+END
