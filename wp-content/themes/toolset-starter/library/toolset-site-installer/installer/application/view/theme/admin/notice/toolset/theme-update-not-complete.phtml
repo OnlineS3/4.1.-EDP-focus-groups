@@ -1,0 +1,25 @@
+<?php
+/**
+ * Template File
+ * This file is only build for classes which implements Toolset_Admin_Notice_Interface
+ *
+ * @var Toolset_Admin_Notice_Interface $this
+ */
+$theme = wp_get_theme();
+$theme_name = empty( $theme->get( 'Name' ) )
+	? $theme->get( 'Name' )
+	: __( 'this theme', 'wpv-views' );
+?>
+<h3>
+	<?php printf(
+		__( 'The update of your theme %s is not completed.', 'toolset-themes' ),
+		$theme_name
+	);
+	?>
+</h3>
+
+<?php
+echo Toolset_Admin_Notices_Manager::tpl_button_primary(
+	__( 'Finish Update', 'toolset-themes' ),
+	admin_url( 'index.php?page=' . TT_Controller_Site_Installer::PAGE )
+);

@@ -1,0 +1,56 @@
+{
+  "context": "plugin",
+  "plugins": {
+    "types": {
+      "name": "Toolset Types",
+      "required": 1,
+      "extension": 0,
+      "src": "https:\/\/downloads.wordpress.org\/plugin\/types.zip",
+      "entry_point": "types\/wpcf.php"
+    },
+    "views": {
+      "name": "Toolset Views",
+      "required": 1,
+      "entry_point": "wp-views\/wp-views.php"
+    },
+    "layouts": {
+      "name": "Toolset Layouts",
+      "required": 1,
+      "entry_point": "layouts\/dd-layouts.php"
+    },
+    "cred": {
+      "name": "Toolset CRED",
+      "required": 0,
+      "entry_point": "cred-frontend-editor\/plugin.php"
+    },
+    "access": {
+      "name": "Toolset Access",
+      "required": 0,
+      "entry_point": "types-access\/types-access.php"
+    },
+    "maps": {
+      "name": "Toolset Maps",
+      "required": 0,
+      "entry_point": "toolset-maps\/toolset-maps-loader.php"
+    },
+    "woocommerce": {
+      "name": "WooCommerce",
+      "required": 0,
+      "extension": 1,
+      "src": "https:\/\/downloads.wordpress.org\/plugin\/woocommerce.zip",
+      "entry_point": "woocommerce\/woocommerce.php"
+    },
+    "woocommerce-views": {
+      "name": "Toolset WooCommerce Views",
+      "required": 0,
+      "extension": 1,
+      "entry_point": "woocommerce-views\/views-woocommerce.php"
+    },
+    "cred-commerce": {
+      "name": "Toolset CRED Commerce",
+      "required": 0,
+      "extension": 1,
+      "entry_point": "cred-commerce\/plugin.php"
+    }
+  }
+}

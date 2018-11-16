@@ -1,0 +1,629 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/40741/tags/4.8/wp-admin/css
+END
+revisions-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/revisions-rtl.css
+END
+press-this-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/40741/tags/4.8/wp-admin/css/press-this-rtl.min.css
+END
+list-tables.css
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/40741/tags/4.8/wp-admin/css/list-tables.css
+END
+press-this-editor-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/40741/tags/4.8/wp-admin/css/press-this-editor-rtl.css
+END
+themes-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/40741/tags/4.8/wp-admin/css/themes-rtl.css
+END
+edit.css
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/40741/tags/4.8/wp-admin/css/edit.css
+END
+customize-widgets.css
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-widgets.css
+END
+install-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/40741/tags/4.8/wp-admin/css/install-rtl.min.css
+END
+widgets-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/40741/tags/4.8/wp-admin/css/widgets-rtl.min.css
+END
+admin-menu-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/40741/tags/4.8/wp-admin/css/admin-menu-rtl.css
+END
+color-picker.css
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/40741/tags/4.8/wp-admin/css/color-picker.css
+END
+login.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/login.min.css
+END
+about-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/about-rtl.min.css
+END
+nav-menus.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/nav-menus.min.css
+END
+wp-admin-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/40741/tags/4.8/wp-admin/css/wp-admin-rtl.min.css
+END
+deprecated-media-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/40741/tags/4.8/wp-admin/css/deprecated-media-rtl.min.css
+END
+press-this.css
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/40741/tags/4.8/wp-admin/css/press-this.css
+END
+revisions-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/40741/tags/4.8/wp-admin/css/revisions-rtl.min.css
+END
+list-tables.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/40741/tags/4.8/wp-admin/css/list-tables.min.css
+END
+themes-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/40741/tags/4.8/wp-admin/css/themes-rtl.min.css
+END
+install.css
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/40741/tags/4.8/wp-admin/css/install.css
+END
+widgets.css
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/40741/tags/4.8/wp-admin/css/widgets.css
+END
+press-this-editor-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/40741/tags/4.8/wp-admin/css/press-this-editor-rtl.min.css
+END
+edit.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/40741/tags/4.8/wp-admin/css/edit.min.css
+END
+customize-widgets.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-widgets.min.css
+END
+about.css
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/40741/tags/4.8/wp-admin/css/about.css
+END
+admin-menu-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/40741/tags/4.8/wp-admin/css/admin-menu-rtl.min.css
+END
+color-picker.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/40741/tags/4.8/wp-admin/css/color-picker.min.css
+END
+wp-admin.css
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/40741/tags/4.8/wp-admin/css/wp-admin.css
+END
+deprecated-media.css
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/40741/tags/4.8/wp-admin/css/deprecated-media.css
+END
+farbtastic-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/40741/tags/4.8/wp-admin/css/farbtastic-rtl.css
+END
+revisions.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/revisions.css
+END
+press-this.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/40741/tags/4.8/wp-admin/css/press-this.min.css
+END
+themes.css
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/40741/tags/4.8/wp-admin/css/themes.css
+END
+press-this-editor.css
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/40741/tags/4.8/wp-admin/css/press-this-editor.css
+END
+forms-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/forms-rtl.css
+END
+dashboard-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/dashboard-rtl.css
+END
+common-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/40741/tags/4.8/wp-admin/css/common-rtl.css
+END
+install.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/40741/tags/4.8/wp-admin/css/install.min.css
+END
+widgets.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/40741/tags/4.8/wp-admin/css/widgets.min.css
+END
+admin-menu.css
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/40741/tags/4.8/wp-admin/css/admin-menu.css
+END
+ie-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/40741/tags/4.8/wp-admin/css/ie-rtl.css
+END
+about.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/about.min.css
+END
+wp-admin.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/40741/tags/4.8/wp-admin/css/wp-admin.min.css
+END
+deprecated-media.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/40741/tags/4.8/wp-admin/css/deprecated-media.min.css
+END
+farbtastic-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/40741/tags/4.8/wp-admin/css/farbtastic-rtl.min.css
+END
+revisions.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/revisions.min.css
+END
+press-this-editor.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/40741/tags/4.8/wp-admin/css/press-this-editor.min.css
+END
+forms-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/forms-rtl.min.css
+END
+themes.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/40741/tags/4.8/wp-admin/css/themes.min.css
+END
+dashboard-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/40741/tags/4.8/wp-admin/css/dashboard-rtl.min.css
+END
+l10n-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/40741/tags/4.8/wp-admin/css/l10n-rtl.css
+END
+common-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/40741/tags/4.8/wp-admin/css/common-rtl.min.css
+END
+admin-menu.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/40741/tags/4.8/wp-admin/css/admin-menu.min.css
+END
+media-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/media-rtl.css
+END
+ie-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/40741/tags/4.8/wp-admin/css/ie-rtl.min.css
+END
+customize-controls-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-controls-rtl.css
+END
+farbtastic.css
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/40741/tags/4.8/wp-admin/css/farbtastic.css
+END
+forms.css
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/40741/tags/4.8/wp-admin/css/forms.css
+END
+dashboard.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/dashboard.css
+END
+customize-nav-menus-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-nav-menus-rtl.css
+END
+common.css
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/40741/tags/4.8/wp-admin/css/common.css
+END
+site-icon-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/site-icon-rtl.css
+END
+l10n-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/40741/tags/4.8/wp-admin/css/l10n-rtl.min.css
+END
+ie.css
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/40741/tags/4.8/wp-admin/css/ie.css
+END
+media-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/media-rtl.min.css
+END
+farbtastic.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/40741/tags/4.8/wp-admin/css/farbtastic.min.css
+END
+customize-controls-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-controls-rtl.min.css
+END
+login-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/login-rtl.css
+END
+forms.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/forms.min.css
+END
+nav-menus-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/nav-menus-rtl.css
+END
+dashboard.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/dashboard.min.css
+END
+l10n.css
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/40741/tags/4.8/wp-admin/css/l10n.css
+END
+common.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/40741/tags/4.8/wp-admin/css/common.min.css
+END
+customize-nav-menus-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-nav-menus-rtl.min.css
+END
+site-icon-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/40741/tags/4.8/wp-admin/css/site-icon-rtl.min.css
+END
+media.css
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/40741/tags/4.8/wp-admin/css/media.css
+END
+ie.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/40741/tags/4.8/wp-admin/css/ie.min.css
+END
+list-tables-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/40741/tags/4.8/wp-admin/css/list-tables-rtl.css
+END
+customize-controls.css
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-controls.css
+END
+edit-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/40741/tags/4.8/wp-admin/css/edit-rtl.css
+END
+customize-widgets-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-widgets-rtl.css
+END
+color-picker-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/40741/tags/4.8/wp-admin/css/color-picker-rtl.css
+END
+login-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/login-rtl.min.css
+END
+customize-nav-menus.css
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-nav-menus.css
+END
+nav-menus-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/40741/tags/4.8/wp-admin/css/nav-menus-rtl.min.css
+END
+site-icon.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/site-icon.css
+END
+l10n.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/40741/tags/4.8/wp-admin/css/l10n.min.css
+END
+press-this-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/40741/tags/4.8/wp-admin/css/press-this-rtl.css
+END
+media.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/media.min.css
+END
+list-tables-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/40741/tags/4.8/wp-admin/css/list-tables-rtl.min.css
+END
+widgets-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/40741/tags/4.8/wp-admin/css/widgets-rtl.css
+END
+install-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/40741/tags/4.8/wp-admin/css/install-rtl.css
+END
+customize-controls.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-controls.min.css
+END
+edit-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/40741/tags/4.8/wp-admin/css/edit-rtl.min.css
+END
+customize-widgets-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-widgets-rtl.min.css
+END
+login.css
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/40741/tags/4.8/wp-admin/css/login.css
+END
+about-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/about-rtl.css
+END
+nav-menus.css
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/40741/tags/4.8/wp-admin/css/nav-menus.css
+END
+color-picker-rtl.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/40741/tags/4.8/wp-admin/css/color-picker-rtl.min.css
+END
+customize-nav-menus.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/40741/tags/4.8/wp-admin/css/customize-nav-menus.min.css
+END
+wp-admin-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/40741/tags/4.8/wp-admin/css/wp-admin-rtl.css
+END
+site-icon.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/40741/tags/4.8/wp-admin/css/site-icon.min.css
+END
+deprecated-media-rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/40741/tags/4.8/wp-admin/css/deprecated-media-rtl.css
+END

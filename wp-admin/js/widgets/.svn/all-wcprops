@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/40741/tags/4.8/wp-admin/js/widgets
+END
+media-audio-widget.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/40741/tags/4.8/wp-admin/js/widgets/media-audio-widget.js
+END
+media-image-widget.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/40741/tags/4.8/wp-admin/js/widgets/media-image-widget.js
+END
+media-audio-widget.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/40741/tags/4.8/wp-admin/js/widgets/media-audio-widget.min.js
+END
+media-image-widget.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/40741/tags/4.8/wp-admin/js/widgets/media-image-widget.min.js
+END
+media-widgets.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/40741/tags/4.8/wp-admin/js/widgets/media-widgets.js
+END
+media-video-widget.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/40741/tags/4.8/wp-admin/js/widgets/media-video-widget.js
+END
+media-widgets.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/40741/tags/4.8/wp-admin/js/widgets/media-widgets.min.js
+END
+media-video-widget.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/40741/tags/4.8/wp-admin/js/widgets/media-video-widget.min.js
+END
+text-widgets.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/40741/tags/4.8/wp-admin/js/widgets/text-widgets.js
+END
+text-widgets.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/40741/tags/4.8/wp-admin/js/widgets/text-widgets.min.js
+END

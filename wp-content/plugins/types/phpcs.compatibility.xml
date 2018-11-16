@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ruleset name="ToolsetPHP">
+	<description>Toolset PHP Compatibility Standards</description>
+
+	<config name="testVersion" value="5.3-"/>
+
+	<rule ref="PHPCompatibility">
+        <exclude name="PHPCompatibility.PHP.DefaultTimezoneRequired.Missing"/>
+    </rule>
+
+    <rule ref="Generic.NamingConventions.CamelCapsFunctionName.FunctionDoubleUnderscore">
+        <exclude-pattern>./vendor/toolset/types/embedded/includes/fields/date/functions.php</exclude-pattern>
+    </rule>
+
+    <rule ref="Internal.NoCodeFound">
+        <severity>0</severity>
+    </rule>
+    
+    <rule ref="Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore">
+        <exclude-pattern>./application/controllers/asset/manager.php</exclude-pattern>
+        <exclude-pattern>./vendor/toolset/types/embedded/views/image.php</exclude-pattern>
+        <exclude-pattern>./vendor/toolset/types/embedded/classes/relationship/form-child.php</exclude-pattern>
+        <exclude-pattern>./vendor/toolset/types/embedded/classes/field.php</exclude-pattern>
+        <exclude-pattern>./vendor/toolset/types/embedded/classes/validation-cakephp.php</exclude-pattern>
+        <exclude-pattern>./vendor/toolset/types/embedded/classes/loader.php</exclude-pattern>
+    </rule>
+
+    <file>./application</file>
+    <file>./vendor/toolset/types</file>
+</ruleset>
