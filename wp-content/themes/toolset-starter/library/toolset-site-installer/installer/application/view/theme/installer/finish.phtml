@@ -1,0 +1,30 @@
+<?php
+/** @var $this TT_Step_Plugin_Installation */
+
+// title
+$step_title = __('Finish', 'toolset-themes');
+
+?>
+
+<div class="tt-step sized-container">
+    <h1><?php _e('All Done', 'toolset-themes'); ?></h1>
+
+    <?php if ( ! $this->isUpdate()): // theme installation ?>
+        <p>
+            <?php printf(
+                    __('Great. Toolset plugins are now installed on this site and you’re all set. 
+		                You can enjoy %s and know that anything that you see, you can modify.',
+                        'toolset-themes'),
+                    wp_get_theme()->get('Name')
+            ); ?>
+        </p>
+    <?php else: // theme update ?>
+        <p>
+            <?php printf(
+                __('Great. %s is now up-to-date. See you on the next update.',
+                    'toolset-themes'),
+                wp_get_theme()->get('Name')
+            ); ?>
+        </p>
+    <?php endif; ?>
+</div>

@@ -1,0 +1,35 @@
+<?php
+/** @var $this TT_Step_Plugin_Installation */
+
+// title
+$step_title = ! $this->isUpdate()
+    ? __('Welcome', 'toolset-themes')
+    : __('Hi again!', 'toolset-themes'); ?>
+
+<div class="tt-step sized-container">
+    <h1><?php echo $this->getTitle(); ?></h1>
+
+    <?php if( ! $this->isUpdate() ): // on theme init installation ?>
+        <p>
+            <?php printf(
+                __( '%s uses Toolset plugins to give you the maximal flexibility and customization options. In the next 
+                couple of minutes, %s will download the required plugins and install on your site.', 'toolset-themes' ),
+                wp_get_theme()->get('Name'),
+                wp_get_theme()->get('Name')
+            ); ?>
+        </p>
+
+        <p>
+            <?php _e('Sit back and relax. You don’t need to register or 
+            create any account to get the required plugins.', 'toolset-themes'); ?>
+        </p>
+    <?php else: // on theme update ?>
+        <p>
+            <?php printf(
+                __( '%s has some updates for you. We’ll go again through the installer and help you apply these updates. 
+                Don’t worry. If there’s an update for anything that you edited, we’ll ask you what to do.', 'toolset-themes' ),
+                wp_get_theme()->get('Name')
+            ); ?>
+        </p>
+    <?php endif; ?>
+</div>

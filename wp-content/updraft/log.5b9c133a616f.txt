@@ -1,0 +1,449 @@
+0000.000 (0) Opened log file at time: Fri, 05 Apr 2019 14:51:08 +0000 on http://edp.s3platform.eu
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.5.24 WP: 5.1.1 PHP: 5.6.36 (cgi-fcgi, Linux ps584226 3.14.52-vs2.3.6.15-1 #1 SMP Wed Nov 2 10:45:38 UTC 2016 x86_64) MySQL: 5.6.34-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.4M | 13M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 47792 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.007 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.010 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1543714124, seconds_ago=10761744)
+0000.012 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2019-04-05 14:51:08
+0000.014 (0) Semaphore (fd, wp_options) reset to 1
+0000.015 (0) Set semaphore last lock (fd) time to 2019-04-05 14:51:08
+0000.016 (0) Semaphore lock (fd) complete
+0000.021 (0) Backup run: resumption=0, nonce=5b9c133a616f, begun at=1554475868 (0s ago), job type=backup
+0000.024 (0) Scheduling a resumption (1) after 300 seconds (1554476168) in case this run gets aborted
+0000.035 (0) Checking if we have a zip executable available
+0000.036 (0) Testing: /usr/bin/zip
+0000.045 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.046 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.048 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.049 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.050 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.058 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.059 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.065 (0) Working binary zip found: /usr/bin/zip
+0000.072 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.073 (0) Creation of backups of directories: beginning
+0000.078 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.281 (0) Total entities for the zip file: 1839 directories, 9525 files (0 skipped as non-modified), 113.1 MB
+0000.286 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.289 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.293 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.296 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.300 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.301 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 9525 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.659 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: size is now: 2.90 MB
+0000.676 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 600 files added (on-disk size: 2929 KB)
+0000.680 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 700 files added (on-disk size: 2929 KB)
+0000.684 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 800 files added (on-disk size: 2929 KB)
+0000.687 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 900 files added (on-disk size: 2929 KB)
+0000.692 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 1000 files added (on-disk size: 2929 KB)
+0000.730 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 MB, 9525 files batched, 501 (1002) added so far); re-opening (prior size: 2929 KB)
+0001.231 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: size is now: 6.20 MB
+0001.262 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 1100 files added (on-disk size: 6385.7 KB)
+0001.279 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 1200 files added (on-disk size: 6385.7 KB)
+0001.285 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 1300 files added (on-disk size: 6385.7 KB)
+0001.294 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 1400 files added (on-disk size: 6385.7 KB)
+0001.304 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 1500 files added (on-disk size: 6385.7 KB)
+0001.305 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.3 MB, 9525 files batched, 501 (1503) added so far); re-opening (prior size: 6385.7 KB)
+0002.032 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: size is now: 8.80 MB
+0002.045 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 1600 files added (on-disk size: 8975.6 KB)
+0002.049 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 1700 files added (on-disk size: 8975.6 KB)
+0002.053 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 1800 files added (on-disk size: 8975.6 KB)
+0002.057 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 1900 files added (on-disk size: 8975.6 KB)
+0002.061 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 2000 files added (on-disk size: 8975.6 KB)
+0002.063 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 9525 files batched, 501 (2004) added so far); re-opening (prior size: 8975.6 KB)
+0002.430 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: size is now: 10.70 MB
+0002.437 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 2100 files added (on-disk size: 10991.3 KB)
+0002.441 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 2200 files added (on-disk size: 10991.3 KB)
+0002.445 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 2300 files added (on-disk size: 10991.3 KB)
+0002.449 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 2400 files added (on-disk size: 10991.3 KB)
+0002.453 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 2500 files added (on-disk size: 10991.3 KB)
+0002.455 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 9525 files batched, 501 (2505) added so far); re-opening (prior size: 10991.3 KB)
+0002.681 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 2600 files added (on-disk size: 12097.5 KB)
+0002.685 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 2700 files added (on-disk size: 12097.5 KB)
+0002.699 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 2800 files added (on-disk size: 12097.5 KB)
+0002.724 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 2900 files added (on-disk size: 12097.5 KB)
+0002.728 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 3000 files added (on-disk size: 12097.5 KB)
+0002.729 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 9525 files batched, 501 (3006) added so far); re-opening (prior size: 12097.5 KB)
+0003.636 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: size is now: 15.30 MB
+0003.647 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 3100 files added (on-disk size: 15626.8 KB)
+0003.651 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 3200 files added (on-disk size: 15626.8 KB)
+0003.654 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 3300 files added (on-disk size: 15626.8 KB)
+0003.658 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 3400 files added (on-disk size: 15626.8 KB)
+0003.661 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 3500 files added (on-disk size: 15626.8 KB)
+0003.663 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 MB, 9525 files batched, 501 (3507) added so far); re-opening (prior size: 15626.8 KB)
+0004.116 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 3600 files added (on-disk size: 18003.1 KB)
+0004.120 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 3700 files added (on-disk size: 18003.1 KB)
+0004.124 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 3800 files added (on-disk size: 18003.1 KB)
+0004.128 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 3900 files added (on-disk size: 18003.1 KB)
+0004.135 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 4000 files added (on-disk size: 18003.1 KB)
+0004.136 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 9525 files batched, 501 (4008) added so far); re-opening (prior size: 18003.1 KB)
+0004.881 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 4100 files added (on-disk size: 20481.5 KB)
+0004.885 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 4200 files added (on-disk size: 20481.5 KB)
+0004.888 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 4300 files added (on-disk size: 20481.5 KB)
+0004.892 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 4400 files added (on-disk size: 20481.5 KB)
+0004.895 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 4500 files added (on-disk size: 20481.5 KB)
+0004.901 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 9525 files batched, 501 (4509) added so far); re-opening (prior size: 20481.5 KB)
+0005.325 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 4600 files added (on-disk size: 22581.9 KB)
+0005.330 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 4700 files added (on-disk size: 22581.9 KB)
+0005.333 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 4800 files added (on-disk size: 22581.9 KB)
+0005.337 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 4900 files added (on-disk size: 22581.9 KB)
+0005.341 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 5000 files added (on-disk size: 22581.9 KB)
+0005.342 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 9525 files batched, 501 (5010) added so far); re-opening (prior size: 22581.9 KB)
+0005.778 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 5100 files added (on-disk size: 24328.8 KB)
+0005.782 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 5200 files added (on-disk size: 24328.8 KB)
+0005.786 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 5300 files added (on-disk size: 24328.8 KB)
+0005.789 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 5400 files added (on-disk size: 24328.8 KB)
+0005.793 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 5500 files added (on-disk size: 24328.8 KB)
+0005.794 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 9525 files batched, 501 (5511) added so far); re-opening (prior size: 24328.8 KB)
+0006.144 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 5600 files added (on-disk size: 26010 KB)
+0006.149 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 5700 files added (on-disk size: 26010 KB)
+0006.153 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 5800 files added (on-disk size: 26010 KB)
+0006.157 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 5900 files added (on-disk size: 26010 KB)
+0006.161 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 6000 files added (on-disk size: 26010 KB)
+0006.163 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 9525 files batched, 501 (6012) added so far); re-opening (prior size: 26010 KB)
+0006.561 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 6100 files added (on-disk size: 27894.7 KB)
+0006.565 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 6200 files added (on-disk size: 27894.7 KB)
+0006.568 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 6300 files added (on-disk size: 27894.7 KB)
+0006.572 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 6400 files added (on-disk size: 27894.7 KB)
+0006.575 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 6500 files added (on-disk size: 27894.7 KB)
+0006.576 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 9525 files batched, 501 (6513) added so far); re-opening (prior size: 27894.7 KB)
+0006.918 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 6600 files added (on-disk size: 29303.5 KB)
+0006.922 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 6700 files added (on-disk size: 29303.5 KB)
+0006.942 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 6800 files added (on-disk size: 29303.5 KB)
+0006.946 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 6900 files added (on-disk size: 29303.5 KB)
+0006.960 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 7000 files added (on-disk size: 29303.5 KB)
+0006.961 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 9525 files batched, 501 (7014) added so far); re-opening (prior size: 29303.5 KB)
+0007.211 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 7100 files added (on-disk size: 30233.2 KB)
+0007.215 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 7200 files added (on-disk size: 30233.2 KB)
+0007.219 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 7300 files added (on-disk size: 30233.2 KB)
+0007.223 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 7400 files added (on-disk size: 30233.2 KB)
+0007.226 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 7500 files added (on-disk size: 30233.2 KB)
+0007.228 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 9525 files batched, 501 (7515) added so far); re-opening (prior size: 30233.2 KB)
+0007.602 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 7600 files added (on-disk size: 31623.6 KB)
+0007.605 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 7700 files added (on-disk size: 31623.6 KB)
+0007.609 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 7800 files added (on-disk size: 31623.6 KB)
+0007.613 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 7900 files added (on-disk size: 31623.6 KB)
+0007.616 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 8000 files added (on-disk size: 31623.6 KB)
+0007.618 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 9525 files batched, 501 (8016) added so far); re-opening (prior size: 31623.6 KB)
+0008.040 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 8100 files added (on-disk size: 33402.5 KB)
+0008.044 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 8200 files added (on-disk size: 33402.5 KB)
+0008.048 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 8300 files added (on-disk size: 33402.5 KB)
+0008.053 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 8400 files added (on-disk size: 33402.5 KB)
+0008.057 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 8500 files added (on-disk size: 33402.5 KB)
+0008.060 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.1 MB, 9525 files batched, 501 (8517) added so far); re-opening (prior size: 33402.5 KB)
+0008.878 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 8600 files added (on-disk size: 35963.6 KB)
+0008.882 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 8700 files added (on-disk size: 35963.6 KB)
+0008.886 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 8800 files added (on-disk size: 35963.6 KB)
+0008.890 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 8900 files added (on-disk size: 35963.6 KB)
+0008.894 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 9000 files added (on-disk size: 35963.6 KB)
+0008.895 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 9525 files batched, 501 (9018) added so far); re-opening (prior size: 35963.6 KB)
+0009.381 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 9100 files added (on-disk size: 38061.1 KB)
+0009.385 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 9200 files added (on-disk size: 38061.1 KB)
+0009.388 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 9300 files added (on-disk size: 38061.1 KB)
+0009.392 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 9400 files added (on-disk size: 38061.1 KB)
+0009.395 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip.tmp: 9500 files added (on-disk size: 38061.1 KB)
+0009.397 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 9525 files batched, 501 (9519) added so far); re-opening (prior size: 38061.1 KB)
+0010.543 (0) Created plugins zip (0) - 39194.4 KB in 10.5 s (3745.6 KB/s) (sha1: 903723acc2ab0a5b0113db41109361b4b2c58da5, sha256: 79c9ad5d4f9a50c868b12cc722c5ff292bfa79514a1fab12ff7fc302f162e461)
+0010.545 (0) Deleting old temporary file: log.4fb16b2c9ace-browser.txt
+0010.548 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.567 (0) Total entities for the zip file: 143 directories, 773 files (0 skipped as non-modified), 11.9 MB
+0010.571 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.574 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.578 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.582 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.586 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0010.587 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 773 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0010.795 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip.tmp: size is now: 4.80 MB
+0010.847 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip.tmp: 600 files added (on-disk size: 4921.7 KB)
+0010.851 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip.tmp: 700 files added (on-disk size: 4921.7 KB)
+0010.966 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip.tmp: size is now: 8.90 MB
+0011.109 (0) Created themes zip (0) - 9077.4 KB in 0.6 s (16247.7 KB/s) (sha1: 2d88d51361c615354885395bf92f427f08e56319, sha256: a6cb9c6c06cee75224da9ee37eb1d9b4e77edf854c4e230596963b221799fc22)
+0011.112 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0011.113 (0) Looking for candidates to backup in: /home/intelelv1/edp.s3platform.eu/wp-content/uploads
+0011.114 (0) finding files: 2017: adding to list (1)
+0011.115 (0) finding files: 2018: adding to list (2)
+0011.116 (0) finding files: ddl-layouts-tmp: adding to list (3)
+0011.117 (0) finding files: smack_uci_uploads: adding to list (4)
+0011.118 (0) finding files: wp-ultimate-csv-importer.log: adding to list (5)
+0011.119 (0) finding files: 2019: adding to list (6)
+0011.120 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0011.127 (0) Total entities for the zip file: 28 directories, 161 files (0 skipped as non-modified), 17.6 MB
+0011.130 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.516 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-uploads.zip.tmp: size is now: 17.20 MB
+0011.867 (0) Created uploads zip (0) - 17592.1 KB in 0.7 s (23617.1 KB/s) (sha1: 5ac4bbc209f5a3299a9bb93b1b9cdd46e80f7559, sha256: 8c5ef0c6e6b4ff2ef6ee83f3a53adefc38bcc20e21bfb5d10fdebce74210a567)
+0011.871 (0) Exclusion option setting (wpcore): 
+0011.873 (0) Looking for candidates to backup in: /home/intelelv1/edp.s3platform.eu
+0011.874 (0) finding files: wp-settings.php: adding to list (1)
+0011.875 (0) finding files: wp-comments-post.php: adding to list (2)
+0011.876 (0) finding files: wp-signup.php: adding to list (3)
+0011.877 (0) finding files: wp-links-opml.php: adding to list (4)
+0011.879 (0) finding files: wp-login.php: adding to list (5)
+0011.880 (0) finding files: wp-activate.php: adding to list (6)
+0011.881 (0) finding files: wp-cron.php: adding to list (7)
+0011.882 (0) finding files: readme.html: adding to list (8)
+0011.883 (0) finding files: license.txt: adding to list (9)
+0011.884 (0) finding files: xmlrpc.php: adding to list (10)
+0011.885 (0) finding files: wp-trackback.php: adding to list (11)
+0011.887 (0) finding files: wp-mail.php: adding to list (12)
+0011.888 (0) finding files: wp-load.php: adding to list (13)
+0011.889 (0) finding files: wp-blog-header.php: adding to list (14)
+0011.890 (0) finding files: index.php: adding to list (15)
+0011.891 (0) finding files: wp-includes: adding to list (16)
+0011.892 (0) finding files: wp-content: skipping: this is the wp-content directory
+0011.893 (0) finding files: wp-admin: adding to list (17)
+0011.894 (0) finding files: wp-config.php: adding to list (18)
+0011.895 (0) finding files: .htaccess: adding to list (19)
+0011.896 (0) Beginning creation of dump of wpcore (split every: 400 MB)
+0011.930 (0) Total entities for the zip file: 121 directories, 1496 files (0 skipped as non-modified), 34.8 MB
+0011.934 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.937 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.940 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 300 files added (on-disk size: 0 KB)
+0011.943 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 400 files added (on-disk size: 0 KB)
+0011.947 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 500 files added (on-disk size: 0 KB)
+0011.948 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 1496 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0012.494 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: size is now: 2.70 MB
+0012.500 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 600 files added (on-disk size: 2799.8 KB)
+0012.503 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 700 files added (on-disk size: 2799.8 KB)
+0012.507 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 800 files added (on-disk size: 2799.8 KB)
+0012.510 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 900 files added (on-disk size: 2799.8 KB)
+0012.514 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 1000 files added (on-disk size: 2799.8 KB)
+0012.515 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.7 MB, 1496 files batched, 501 (1002) added so far); re-opening (prior size: 2799.8 KB)
+0013.524 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: size is now: 7.10 MB
+0013.535 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 1100 files added (on-disk size: 7285.2 KB)
+0013.542 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 1200 files added (on-disk size: 7285.2 KB)
+0013.546 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 1300 files added (on-disk size: 7285.2 KB)
+0013.549 (0) Zip: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: 1400 files added (on-disk size: 7285.2 KB)
+0013.900 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip.tmp: size is now: 9.00 MB
+0014.044 (0) Created wpcore zip (0) - 9267 KB in 2.1 s (4317.7 KB/s) (sha1: 80bb11d9baa2c2a7cc6c16c404531a99cba145e5, sha256: 707862db7887e9304c9217241f6a39da1ce5d05803f880dd64851bd1b5ce6b2d)
+0014.048 (0) Beginning backup of other directories found in the content directory (index: 0)
+0014.049 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0014.051 (0) Looking for candidates to backup in: /home/intelelv1/edp.s3platform.eu/wp-content
+0014.052 (0) finding files: plugins: skipping: this is the plugins directory
+0014.053 (0) finding files: themes: skipping: this is the themes directory
+0014.054 (0) finding files: uploads: skipping: this is the uploads directory
+0014.055 (0) finding files: upgrade: skipping: excluded by options
+0014.056 (0) finding files: updraft: skipping: this is the updraft directory
+0014.057 (0) finding files: plugins-old: adding to list (1)
+0014.058 (0) finding files: themes-old: adding to list (2)
+0014.059 (0) finding files: uploads-old: adding to list (3)
+0014.060 (0) finding files: .svn: adding to list (4)
+0014.060 (0) finding files: _modulemanager_tmp_: adding to list (5)
+0014.061 (0) finding files: index.php-old: adding to list (6)
+0014.062 (0) finding files: index.php: adding to list (7)
+0014.066 (0) Total entities for the zip file: 12 directories, 7 files (0 skipped as non-modified), 0 MB
+0014.076 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-others.zip.tmp: size is now: 0.00 MB
+0014.083 (0) Created others zip (0) - 3.5 KB in 0 s (182.5 KB/s) (sha1: dbf38becddc61b4a53119e847a50a495f11232ae, sha256: bba013c2295009241883199198ddab0128adfca120cac3caf2cd9cc3063ff955)
+0014.085 (0) No backup of more: excluded by user's options
+0014.091 (0) Saving backup status to database (elements: 10)
+0014.097 (0) Beginning creation of database dump (WordPress DB)
+0014.100 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0014.120 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1209 bytes total)
+0014.123 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0014.130 (0) Table wp_options: Total expected rows (approximate): 303
+0014.157 (0) Table wp_options: Total rows added: 299 in 0.03 seconds
+0014.159 (0) Table wp_options: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_options.table.gz - 115.2 KB)
+0014.165 (0) Table wp_users: Total expected rows (approximate): 51
+0014.171 (0) Table wp_users: Total rows added: 51 in 0.00 seconds
+0014.172 (0) Table wp_users: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_users.table.gz - 3.6 KB)
+0014.177 (0) Table wp_usermeta: Total expected rows (approximate): 872
+0014.200 (0) Table wp_usermeta: Total rows added: 872 in 0.02 seconds
+0014.202 (0) Table wp_usermeta: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_usermeta.table.gz - 17.7 KB)
+0014.207 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0014.209 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0014.211 (0) Table wp_commentmeta: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0014.216 (0) Table wp_comments: Total expected rows (approximate): 1
+0014.219 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0014.221 (0) Table wp_comments: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_comments.table.gz - 0.7 KB)
+0014.226 (0) Table wp_links: Total expected rows (approximate): 0
+0014.229 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0014.230 (0) Table wp_links: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_links.table.gz - 0.4 KB)
+0014.235 (0) Table wp_postmeta: Total expected rows (approximate): 374
+0014.248 (0) Table wp_postmeta: Total rows added: 374 in 0.01 seconds
+0014.250 (0) Table wp_postmeta: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_postmeta.table.gz - 16.5 KB)
+0014.255 (0) Table wp_posts: Total expected rows (approximate): 141
+0014.278 (0) Table wp_posts: Total rows added: 141 in 0.02 seconds
+0014.280 (0) Table wp_posts: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_posts.table.gz - 21.5 KB)
+0014.285 (0) Table wp_term_relationships: Total expected rows (approximate): 39
+0014.289 (0) Table wp_term_relationships: Total rows added: 39 in 0.00 seconds
+0014.290 (0) Table wp_term_relationships: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0014.295 (0) Table wp_term_taxonomy: Total expected rows (approximate): 681
+0014.313 (0) Table wp_term_taxonomy: Total rows added: 681 in 0.02 seconds
+0014.315 (0) Table wp_term_taxonomy: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_term_taxonomy.table.gz - 4.5 KB)
+0014.329 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0014.331 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0014.333 (0) Table wp_termmeta: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_termmeta.table.gz - 0.4 KB)
+0014.338 (0) Table wp_terms: Total expected rows (approximate): 681
+0014.356 (0) Table wp_terms: Total rows added: 681 in 0.02 seconds
+0014.358 (0) Table wp_terms: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_terms.table.gz - 15.8 KB)
+0014.363 (0) Table wp_toolset_post_guid_id: Total expected rows (approximate): 27
+0014.366 (0) Table wp_toolset_post_guid_id: Total rows added: 27 in 0.00 seconds
+0014.367 (0) Table wp_toolset_post_guid_id: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_toolset_post_guid_id.table.gz - 0.7 KB)
+0014.373 (0) Table wp_ultimate_csv_importer_log_values: Total expected rows (approximate): 0
+0014.375 (0) Table wp_ultimate_csv_importer_log_values: Total rows added: 0 in 0.00 seconds
+0014.376 (0) Table wp_ultimate_csv_importer_log_values: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_ultimate_csv_importer_log_values.table.gz - 0.4 KB)
+0014.384 (0) Table wp_ultimate_csv_importer_manageshortcodes: Total expected rows (approximate): 0
+0014.387 (0) Table wp_ultimate_csv_importer_manageshortcodes: Total rows added: 0 in 0.00 seconds
+0014.388 (0) Table wp_ultimate_csv_importer_manageshortcodes: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_ultimate_csv_importer_manageshortcodes.table.gz - 0.4 KB)
+0014.393 (0) Table wp_ultimate_csv_importer_shortcodes_statusrel: Total expected rows (approximate): 0
+0014.395 (0) Table wp_ultimate_csv_importer_shortcodes_statusrel: Total rows added: 0 in 0.00 seconds
+0014.396 (0) Table wp_ultimate_csv_importer_shortcodes_statusrel: finishing file (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_ultimate_csv_importer_shortcodes_statusrel.table.gz - 0.4 KB)
+0014.401 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_options.table.gz (1/16): adding to final database dump
+0014.417 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_users.table.gz (2/16): adding to final database dump
+0014.419 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_usermeta.table.gz (3/16): adding to final database dump
+0014.430 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_commentmeta.table.gz (4/16): adding to final database dump
+0014.431 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_comments.table.gz (5/16): adding to final database dump
+0014.433 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_links.table.gz (6/16): adding to final database dump
+0014.435 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_postmeta.table.gz (7/16): adding to final database dump
+0014.442 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_posts.table.gz (8/16): adding to final database dump
+0014.451 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_term_relationships.table.gz (9/16): adding to final database dump
+0014.453 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_term_taxonomy.table.gz (10/16): adding to final database dump
+0014.460 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_termmeta.table.gz (11/16): adding to final database dump
+0014.461 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_terms.table.gz (12/16): adding to final database dump
+0014.471 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_toolset_post_guid_id.table.gz (13/16): adding to final database dump
+0014.473 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_ultimate_csv_importer_log_values.table.gz (14/16): adding to final database dump
+0014.475 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_ultimate_csv_importer_manageshortcodes.table.gz (15/16): adding to final database dump
+0014.477 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db-table-wp_ultimate_csv_importer_shortcodes_statusrel.table.gz (16/16): adding to final database dump
+0014.478 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db.gz: finished writing out complete database file (184 KB)
+0014.489 (0) Total database tables backed up: 16 (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db.gz, size: 201487, sha256)
+0014.503 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0014.504 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0014.505 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0014.507 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0014.508 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0014.509 (0) backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0014.510 (0) Saving backup history. Total backup size: 73.6 MB
+0014.516 (0) Requesting upload of the files that have not yet been successfully uploaded (6)
+0014.521 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0014.522 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-a1698e675ce18fb00890da6ad9a3b26f)
+0014.523 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0014.526 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0015.280 (0) Dropbox: quota usage: used=344445.3 MB, total=1081856 MB, available=737410.7 MB
+0015.282 (0) Dropbox: Attempt to upload: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip to: onlineS3edp/backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip
+0016.854 (0) Dropbox chunked upload: 2.6 % uploaded (AAAAAAABHoCautTaYr5X1A, 1048576, 5632 KB)
+0020.630 (0) Dropbox chunked upload: 17 % uploaded (AAAAAAABHoCautTaYr5X1A, 6815744, 10240 KB)
+0023.839 (0) Dropbox chunked upload: 43.1 % uploaded (AAAAAAABHoCautTaYr5X1A, 17301504, 10240 KB)
+0027.671 (0) Dropbox chunked upload: 69.2 % uploaded (AAAAAAABHoCautTaYr5X1A, 27787264, 10240 KB)
+0031.372 (0) Dropbox chunked upload: 95.4 % uploaded (AAAAAAABHoCautTaYr5X1A, 38273024, 10240 KB)
+0033.103 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABHoCautTaYr5X1A, 40135103, 10240 KB)
+0034.484 (0) Recording as successfully uploaded: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip
+0034.505 (0) Deleting local file: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip: OK
+0034.511 (0) Dropbox: File upload success (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-plugins.zip): 39194 KB in 19s (2038 KB/s)
+0035.143 (0) Dropbox: quota usage: used=344483.5 MB, total=1081856 MB, available=737372.5 MB
+0035.144 (0) Dropbox: Attempt to upload: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip to: onlineS3edp/backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip
+0038.852 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABHoEeblnu5PLwQA, 9295241, 10240 KB)
+0040.444 (0) Recording as successfully uploaded: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip
+0040.455 (0) Deleting local file: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip: OK
+0040.457 (0) Dropbox: File upload success (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-themes.zip): 9077 KB in 5s (1708 KB/s)
+0040.946 (0) Dropbox: quota usage: used=344492.4 MB, total=1081856 MB, available=737363.6 MB
+0040.948 (0) Dropbox: Attempt to upload: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-uploads.zip to: onlineS3edp/backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-uploads.zip
+0044.011 (0) Dropbox chunked upload: 58.2 % uploaded (AAAAAAABHoJnwXYYGb7TUg, 10485760, 10240 KB)
+0046.475 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABHoJnwXYYGb7TUg, 18014351, 10240 KB)
+0048.428 (0) Recording as successfully uploaded: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-uploads.zip
+0048.436 (0) Deleting local file: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-uploads.zip: OK
+0048.438 (0) Dropbox: File upload success (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-uploads.zip): 17592 KB in 7s (2348 KB/s)
+0048.919 (0) Dropbox: quota usage: used=344509.6 MB, total=1081856 MB, available=737346.4 MB
+0048.920 (0) Dropbox: Attempt to upload: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip to: onlineS3edp/backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip
+0051.682 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABHoO46uh1Yo-5-A, 9489402, 10240 KB)
+0053.329 (0) Recording as successfully uploaded: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip
+0053.335 (0) Deleting local file: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip: OK
+0053.337 (0) Dropbox: File upload success (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-wpcore.zip): 9266 KB in 4s (2098 KB/s)
+0054.555 (0) Dropbox: quota usage: used=344518.6 MB, total=1081856 MB, available=737337.4 MB
+0054.561 (0) Dropbox: Attempt to upload: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-others.zip to: onlineS3edp/backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-others.zip
+0055.335 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABHoQw595d7Xrv6g, 3544, 10240 KB)
+0056.719 (0) Recording as successfully uploaded: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-others.zip
+0056.723 (0) Deleting local file: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-others.zip: OK
+0056.724 (0) Dropbox: File upload success (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-others.zip): 3 KB in 2s (1 KB/s)
+0057.206 (0) Dropbox: quota usage: used=344518.6 MB, total=1081856 MB, available=737337.4 MB
+0057.208 (0) Dropbox: Attempt to upload: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db.gz to: onlineS3edp/backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db.gz
+0058.391 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABHoW1TEfSrt85BA, 201487, 10240 KB)
+0060.027 (0) Recording as successfully uploaded: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db.gz
+0060.031 (0) Deleting local file: backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db.gz: OK
+0060.032 (0) Dropbox: File upload success (backup_2019-04-05-1651_EDP_focus_groups_5b9c133a616f-db.gz): 196 KB in 2s (69 KB/s)
+0060.040 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=6, retain_db=6
+0060.043 (0) Number of backup sets in history: 9; groups (db): 1
+0060.044 (0) Examining (for databases) backup set with group_id=0, nonce=5b9c133a616f, datestamp=1554475868 (Apr 05 2019 14:51:08)
+0060.045 (0) This backup set is the backup set just made, so will not be deleted.
+0060.045 (0) Examining (for databases) backup set with group_id=0, nonce=4a3a63799f49, datestamp=1543710480 (Dec 02 2018 00:28:00)
+0060.045 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.046 (0) Examining (for databases) backup set with group_id=0, nonce=e4583794db0a, datestamp=1543489752 (Nov 29 2018 11:09:12)
+0060.046 (0) This backup set (1543489752) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0060.046 (0) Examining (for databases) backup set with group_id=0, nonce=eb1fdc5726f8, datestamp=1543117915 (Nov 25 2018 03:51:55)
+0060.046 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.046 (0) Examining (for databases) backup set with group_id=0, nonce=1bd3e333c866, datestamp=1542501870 (Nov 18 2018 00:44:30)
+0060.046 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.046 (0) Examining (for databases) backup set with group_id=0, nonce=2d113d099a86, datestamp=1541895662 (Nov 11 2018 00:21:02)
+0060.046 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.047 (0) Examining (for databases) backup set with group_id=0, nonce=7f6bb61efb52, datestamp=1541293564 (Nov 04 2018 01:06:04)
+0060.047 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.047 (0) Examining (for databases) backup set with group_id=0, nonce=b49b90641581, datestamp=1540697905 (Oct 28 2018 03:38:25)
+0060.047 (0) 1540697905: db: this set includes a database (backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-db.gz); db count is now 6
+0060.047 (0) 1540697905: db: over retain limit (6); will delete this database
+0060.047 (0) Delete file: backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-db.gz, service=dropbox
+0060.049 (0) Dropbox: request deletion: onlineS3edp/backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-db.gz
+0061.117 (0) Dropbox: delete succeeded
+0061.121 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0061.122 (0) Examining (for databases) backup set with group_id=0, nonce=69760e2367d8, datestamp=1540082505 (Oct 21 2018 00:41:45)
+0061.122 (0) Number of backup sets in history: 9; groups (files): 1
+0061.123 (0) Examining (for files) backup set with nonce=5b9c133a616f, datestamp=1554475868 (Apr 05 2019 14:51:08)
+0061.123 (0) This backup set is the backup set just made, so will not be deleted.
+0061.124 (0) This backup set is the backup set just made, so will not be deleted.
+0061.124 (0) This backup set is the backup set just made, so will not be deleted.
+0061.124 (0) This backup set is the backup set just made, so will not be deleted.
+0061.124 (0) This backup set is the backup set just made, so will not be deleted.
+0061.125 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.126 (0) Examining (for files) backup set with nonce=4a3a63799f49, datestamp=1543710480 (Dec 02 2018 00:28:00)
+0061.126 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.126 (0) Examining (for files) backup set with nonce=e4583794db0a, datestamp=1543489752 (Nov 29 2018 11:09:12)
+0061.126 (0) This backup set (1543489752) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0061.126 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.126 (0) Examining (for files) backup set with nonce=eb1fdc5726f8, datestamp=1543117915 (Nov 25 2018 03:51:55)
+0061.126 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.127 (0) Examining (for files) backup set with nonce=1bd3e333c866, datestamp=1542501870 (Nov 18 2018 00:44:30)
+0061.127 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.127 (0) Examining (for files) backup set with nonce=2d113d099a86, datestamp=1541895662 (Nov 11 2018 00:21:02)
+0061.127 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.127 (0) Examining (for files) backup set with nonce=7f6bb61efb52, datestamp=1541293564 (Nov 04 2018 01:06:04)
+0061.127 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.128 (0) Examining (for files) backup set with nonce=b49b90641581, datestamp=1540697905 (Oct 28 2018 03:38:25)
+0061.128 (0) plugins: over retain limit (6); will delete this file entity
+0061.128 (0) themes: over retain limit (6); will delete this file entity
+0061.128 (0) uploads: over retain limit (6); will delete this file entity
+0061.128 (0) wpcore: over retain limit (6); will delete this file entity
+0061.128 (0) others: over retain limit (6); will delete this file entity
+0061.128 (0) Delete file: backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-plugins.zip, service=dropbox
+0061.131 (0) Delete file: backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-themes.zip, service=dropbox
+0061.132 (0) Delete file: backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-uploads.zip, service=dropbox
+0061.133 (0) Delete file: backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-wpcore.zip, service=dropbox
+0061.134 (0) Delete file: backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-others.zip, service=dropbox
+0061.136 (0) Dropbox: request deletion: onlineS3edp/backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-plugins.zip
+0061.937 (0) Dropbox: delete succeeded
+0061.939 (0) Dropbox: request deletion: onlineS3edp/backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-themes.zip
+0062.685 (0) Dropbox: delete succeeded
+0062.686 (0) Dropbox: request deletion: onlineS3edp/backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-uploads.zip
+0063.339 (0) Dropbox: delete succeeded
+0063.341 (0) Dropbox: request deletion: onlineS3edp/backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-wpcore.zip
+0064.100 (0) Dropbox: delete succeeded
+0064.101 (0) Dropbox: request deletion: onlineS3edp/backup_2018-10-28-0438_EDP_focus_groups_b49b90641581-others.zip
+0064.905 (0) Dropbox: delete succeeded
+0064.910 (0) This backup set is now empty; will remove from history
+0064.912 (0) Corresponding log file (log.b49b90641581.txt) not found - must have already been deleted
+0064.913 (0) Examining (for files) backup set with nonce=69760e2367d8, datestamp=1540082505 (Oct 21 2018 00:41:45)
+0064.915 (0) themes: over retain limit (6); will delete this file entity
+0064.915 (0) uploads: over retain limit (6); will delete this file entity
+0064.915 (0) wpcore: over retain limit (6); will delete this file entity
+0064.915 (0) others: over retain limit (6); will delete this file entity
+0064.915 (0) Delete file: backup_2018-10-21-0241_EDP_focus_groups_69760e2367d8-themes.zip, service=dropbox
+0064.917 (0) Delete file: backup_2018-10-21-0241_EDP_focus_groups_69760e2367d8-uploads.zip, service=dropbox
+0064.918 (0) Delete file: backup_2018-10-21-0241_EDP_focus_groups_69760e2367d8-wpcore.zip, service=dropbox
+0064.919 (0) Delete file: backup_2018-10-21-0241_EDP_focus_groups_69760e2367d8-others.zip, service=dropbox
+0064.923 (0) Dropbox: request deletion: onlineS3edp/backup_2018-10-21-0241_EDP_focus_groups_69760e2367d8-themes.zip
+0066.045 (0) Dropbox: path_lookup (line: 228, file: /home/intelelv1/edp.s3platform.eu/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0066.048 (0) This backup set is now empty; will remove from history
+0066.049 (0) Corresponding log file (log.69760e2367d8.txt) not found - must have already been deleted
+0066.050 (0) Retain: saving new backup history (sets now: 7) and finishing retain operation
+0066.078 (0) Resume backup (5b9c133a616f, 0): finish run
+0066.081 (0) Decremented the semaphore (fd) by 1
+0066.083 (0) Semaphore (fd) unlocked
+0066.084 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0066.091 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 49.3 KB) to: patsa...
+0066.117 (0) The backup apparently succeeded and is now complete

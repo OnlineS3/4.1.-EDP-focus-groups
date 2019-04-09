@@ -1,0 +1,69 @@
+{% import "@toolset/forms.twig" as forms %}
+
+<!-- ko if: display.allowsAssociationFields -->
+    <table class="widefat toolset-field-table">
+        <tbody>
+            <tr>
+                <td class="align-left"><strong>{{ forms.label( __( 'Intermediary post type:', 'wpcf' ), false ) }}</strong></td>
+                <td>
+                    <strong data-bind="text: display.intermediaryPostType.plural"></strong><i class="fa fa-trash types-trash-ipt" aria-hidden="true" data-bind="click: display.intermediaryPostType.onDeletePostType,
+                               visible: display.intermediaryPostType.exists"></i>
+
+                    <span data-bind="visible: display.advancedMode.isEnabled() && ! display.intermediaryPostType.exists()">
+                        {{ forms.button(
+                            'click: function() { display.intermediaryPostType.isSelectingExistingPostType(true) },
+                            visible: (
+                                display.intermediaryPostType.allowSelectingExistingIntermediaryPostType()
+                                && ! display.intermediaryPostType.isSelectingExistingPostType()
+                            )',
+                            __( 'Use existing post type', 'wpcf' )
+                        ) }}
+
+                        <span data-bind="visible: display.intermediaryPostType.isSelectingExistingPostType">
+                            <select data-bind="
+                                        value: display.intermediaryPostType.selectedExistingPostType,
+                                        options: display.intermediaryPostType.potentialIntermediaryPostTypes,
+                                        optionsText: 'label',
+                                        optionsValue: 'slug'
+                                    "
+                                    title="{{ __( 'Post type to use as intermediary', 'wpcf') }}"
+                            ></select>
+                            {{ forms.button(
+                                'click: display.intermediaryPostType.selectExistingPostType',
+                                __( 'Select', 'wpcf' )
+                            ) }}
+                        </span>
+                    </span>
+
+                </td>
+            </tr>
+            <tr><td colspan="2" class="pad-top-24"><hr></td></tr>
+            <tr>
+                <td class="align-top align-left">
+                    <span data-bind="visible: display.associationFields().length > 0"><strong>{{  __( 'Custom fields:', 'wpcf' )  }}</strong></span>
+                </td>
+                <td>
+                    <p>
+                        <span data-bind="visible: display.associationFields().length > 0"><strong class="margin-right-18">{{ __( 'Fields attached to this relationship:', 'wpcf' ) }}</strong>
+                        {{ forms.button( 'click: display.intermediaryPostType.onEditFields',  __( 'Edit Fields', 'wpcf' ) ) }}</span>
+                        <span data-bind="visible: display.associationFields().length === 0">
+                            <strong class="margin-right-18">{{ __( 'There are no custom fields attached to this relationship', 'wpcf' ) }}</strong>
+                            {{ forms.button( 'click: display.intermediaryPostType.onEditFields',  __( 'Add Fields', 'wpcf' ) ) }}</span>
+                    </p>
+                    <ul data-bind="foreach: display.associationFields">
+                        <li class="types-association-field">
+                            <i data-bind="attr: { class: icon }"></i>
+                            <span data-bind="html: displayName"></span>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+<!-- /ko -->
+<!-- ko if: ! display.allowsAssociationFields() -->
+    <p>
+        {{ __( 'Custom fields are allowed only for many-to-many relationships.', 'wpcf' ) }}
+        {{ __( 'For one-to-one or one-to-many relationships, you can use custom fields of the child post instead.', 'wpcf' ) }}
+    </p>
+<!-- /ko -->

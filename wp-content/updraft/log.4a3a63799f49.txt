@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Fri, 05 Apr 2019 14:50:08 +0000 on http://edp.s3platform.eu
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.5.24 WP: 5.1.1 PHP: 5.6.36 (cgi-fcgi, Linux ps584226 3.14.52-vs2.3.6.15-1 #1 SMP Wed Nov 2 10:45:38 UTC 2016 x86_64) MySQL: 5.6.34-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.6M | 14.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (1) Free space on disk containing Updraft's temporary directory: 47792.2 MB
+0000.004 (1) This backup task (4a3a63799f49) is either complete or began over 2 days ago: ending (1554475808.1554, ) (existing jobdata keys: )

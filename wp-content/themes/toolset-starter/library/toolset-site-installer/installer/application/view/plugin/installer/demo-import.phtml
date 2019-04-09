@@ -1,0 +1,201 @@
+<?php /** @var $this TT_Step_Demo_Import */ ?>
+
+<div class="tt-step sized-container">
+	<h1>
+        <?php echo $this->getTitle(); ?>
+    </h1>
+
+    <p>
+        <b><?php _e( 'Layouts, templates, archives and other site-elements', 'toolset-themes' ); ?></b>
+    </p>
+
+    <p>
+        <?php printf( __( 'In this step, the installer will create all of the Toolset elements that are 
+        needed to display content in %s. Later, you will be able to modify anything that 
+        the installer sets up.', 'toolset-themes' ), wp_get_theme()->get('Name') ); ?>
+    </p>
+
+	<?php /* For Later
+	<h2><?php _e( 'Backup', 'toolset-themes' ); ?></h2>
+	<p>
+		<?php _e( 'Always good to have a backup. The installer can create one for you, before changing anything to your database.', 'toolset-themes' ); ?>
+	</p>
+
+	<p>
+		<input type="checkbox" id="automatic-backup" checked="checked" />
+		<label for="automatic-backup"><?php _e( 'Create a backup before doing anything else', 'toolset-themes' ); ?></label>
+	</p>
+
+
+	
+	<h2><?php _e( 'Clean Installation', 'toolset-themes' ); ?></h2>
+	<p>
+		<?php _e( 'For the first installation of the theme we recommend to do a clean installation. Which means removing all existing data, except WordPress settings and users.', 'toolset-themes' ); ?>
+	</p>
+	<p>
+		<input type="checkbox" id="clean-installation" checked="checked" />
+		<label for="clean-installation"><?php _e( 'Clean installation', 'toolset-themes' ); ?></label>
+	</p>
+*/ ?>
+	<?php if($this->getImporter()->hasPluginImports()) { ?>
+		<input type="checkbox" id="import-plugins" checked="checked" disabled="disabled" style="display:none;" />
+	<?php } ?>
+
+	<?php if($this->getImporter()->hasWordpressImport() && ! $this->getImporter()->getSettings()->getProtocol()->isThemeUpdate() ) { ?>
+	<h2><?php _e( 'Demo Content (optional)', 'toolset-themes' ); ?></h2>
+	
+	<p><?php _e( 'This includes demo content in pages and posts.', 'toolset-themes' ); ?></p>
+	<p>
+		<input type="checkbox" id="import-wordpress" checked="checked" />
+		<label for="import-wordpress"><?php _e( 'Import demo content (posts, pages and sample media)',
+                'toolset-themes' ); ?></label>
+	</p>
+	<?php } ?>
+
+	<div class="tt-process-status" id="tt-demo-process-status">
+		<h2><?php _e( 'Process Status', 'toolset-themes' ); ?></h2>
+
+		<p class="tt-process-status-messages">
+		</p>
+
+		<p class="tt-process-status-loading">
+			<?php _e( 'Loading, please wait', 'toolset-themes' ); ?><span class="processing_dots">...</span>
+            <span id="tt-process-status-percentage"></span>
+		</p>
+
+		<p class="tt-process-status-finished-success">
+			<b><?php _e( 'The import is done.', 'toolset-themes' ); ?></b>
+		</p>
+
+		<p class="tt-process-status-finished-failed">
+			<b><?php _e( "We're sorry, but there was a problem with the import.", 'toolset-themes' ); ?></b>
+		</p>
+
+		<p class="tt-process-status-aborted-by-user">
+			<b><?php _e( "You have aborted the import process. The setup cannot be finished without importing these settings.", 'toolset-themes' ); ?></b>
+		</p>
+
+		<p class="tt-process-status-finished-failed">
+			<?php // TODO inform about the issue and what to do ?>
+			<b><?php _e( "We're sorry, but there was a problem with the import.", 'toolset-themes' ); ?></b>
+		</p>
+	</div>
+<?php /*
+	<div id="toolset-import-data"><?php echo json_encode(
+			array(
+				'views' => '/Users/cg/Sites/toolset-plugins-for-themes/application/data/themes/57-test-theme/3.1.3/_demo/wp-views.zip',
+				'types' => '/Users/cg/Sites/toolset-plugins-for-themes/application/data/themes/57-test-theme/3.1.3/_demo/types.zip'
+			) ); ?></div>
+
+	<script>
+		function($){
+			$(function(){
+				Toolset_Import.Importer.call( {}, $, $('.js-toolset-import-trigger'), $('#toolset-import-data').text() )
+			});
+		}(jQuery));
+	</script>
+ */ ?>
+</div>
+
+<script type="text/template" id="dialog-modified-items">
+
+	<% if (plugin == '') { %>
+		<p><?php _e( 'Here are the items that you edited and have updates. Choose what to do with each item (the default is to keep your version):', 'toolset-themes' ); ?></p>
+	<% } else { %>
+		<p><?php printf( __( 'The theme wants to update items of %s. These items were also modified by you. Please decide what to do:', 'toolset-themes' ), '<b><%= plugin %></b>' ); ?></p>
+	<% } %>
+
+	<% _.each(items_groups, function(group, groupkey){ %>
+	<table class="tt-modified-items js-tt-modified-items">
+		<thead>
+			<tr>
+				<td><span class="tt-modified-items-title"><%= group.title %></td>
+				<% if (group.allowed_operations.skip) { %>
+				<td class="tt-col-width-tiny tt-center" data-check-column=".tt-modified-items" data-tooltip="<?php _e('Keep the version with my edits.', 'toolset-importer');?>"><span class="tt-user-decision-icon tt-user-decision-icon-keep"></span></td>
+				<% } %>
+
+				<% if (group.allowed_operations.duplicate) { %>
+				<td class="tt-col-width-tiny tt-center" data-check-column=".tt-modified-items" data-tooltip="<?php _e('Keep my version and create an unused copy from the new version of the theme. This way, you can apply the new changes manually without overwriting your work.', 'toolset-importer');?>"><span class="tt-user-decision-icon tt-user-decision-icon-duplicate"></span></td>
+				<% } else { %>
+				<td class="tt-col-width-tiny tt-center tt-disabled" data-check-column=".tt-modified-items" data-tooltip="<?php printf( __('Copy is not available for %s', 'toolset-importer'), '<%= group.title %>');?>"><span class="tt-user-decision-icon tt-user-decision-icon-duplicate-disabled"></span></td>
+				<% } %>
+
+				<% if (group.allowed_operations.overwrite) { %>
+				<td class="tt-col-width-tiny tt-center" data-check-column=".tt-modified-items" data-tooltip="<?php _e('Update to the new version of the theme.', 'toolset-importer');?>"><span class="tt-user-decision-icon tt-user-decision-icon-overwrite"></span></td>
+				<% } %>
+			</tr>
+		</thead>
+
+		<tbody>
+			<% _.each(group.items, function(post, i, list){ %>
+			<tr>
+				<td>
+					<% if ( post.guid ) { %>
+						<a href="<%= post.guid %>" target="_blank"><%= post.post_title %></a>
+					<% } else { %>
+						<%= post.post_title %>
+					<% } %>
+				</td>
+
+				<% if (group.allowed_operations.skip) { %>
+				<td class="tt-center">
+					<input type="radio" id="<%= post.post_name %>-skip" name="<%= post.post_name %>" value="<%= toolsetinstaller.user_choice_skip %>" checked data-post_type="<%= post.post_type %>" />
+					<label class="tt-radio-input" for="<%= post.post_name %>-skip">&nbsp;</label>
+				</td>
+				<% } %>
+
+
+				<td class="tt-center">
+					<% if (group.allowed_operations.duplicate) { %>
+					<input type="radio" id="<%= post.post_name %>-duplicate" name="<%= post.post_name %>" value="<%= toolsetinstaller.user_choice_duplicate %>" data-post_type="<%= post.post_type %>" />
+					<label class="tt-radio-input" for="<%= post.post_name %>-duplicate">&nbsp;</label>
+					<% } %>
+				</td>
+
+
+				<% if (group.allowed_operations.overwrite) { %>
+				<td class="tt-center">
+					<input type="radio" id="<%= post.post_name %>-overwrite" name="<%= post.post_name %>" value="<%= toolsetinstaller.user_choice_overwrite %>" data-post_type="<%= post.post_type %>" />
+					<label class="tt-radio-input" for="<%= post.post_name %>-overwrite">&nbsp;</label>
+				</td>
+				<% } %>
+			</tr>
+			<% }); %>
+		</tbody>
+	</table>
+	<% }); %>
+</script>
+
+
+<script type="text/template" id="dialog-modified-items-master-decision">
+	<p><?php _e( 'This update of the theme changes items that you edited. Please choose how to continue:', 'toolset-themes' ); ?></p>
+
+	<table class="tt-modified-items">
+		<tr data-input-control-check="#modified-items-keep">
+			<td width="10%" class="tt-center">
+				<input type="radio" id="modified-items-keep" name="tt_modified_items_master_decision" value="<%= toolsetinstaller.user_choice_skip %>" />
+				<label class="tt-radio-input" for="modified-items-keep">&nbsp;</label></td>
+			<td>
+				<?php _e('Keep my version', 'toolset-importer');?>
+			</td>
+		</tr>
+		<tr data-input-control-check="#modified-items-overwrite">
+			<td width="10%" class="tt-center">
+				<input type="radio" id="modified-items-overwrite" name="tt_modified_items_master_decision" value="<%= toolsetinstaller.user_choice_overwrite %>" />
+				<label class="tt-radio-input" for="modified-items-overwrite">&nbsp;</label>
+			</td>
+			<td>
+				<?php _e('Overwrite my changes', 'toolset-importer');?>
+			</td>
+		</tr>
+		<tr data-input-control-check="#modified-items-decide-per-item">
+			<td width="10%" class="tt-center">
+				<input type="radio" id="modified-items-decide-per-item" name="tt_modified_items_master_decision" value="<%= toolsetinstaller.user_choice_decide_per_item %>" />
+				<label class="tt-radio-input" for="modified-items-decide-per-item">&nbsp;</label>
+			</td>
+			<td>
+				<?php _e('Decide per item', 'toolset-importer');?>
+			</td>
+		</tr>
+	</table>
+</script>

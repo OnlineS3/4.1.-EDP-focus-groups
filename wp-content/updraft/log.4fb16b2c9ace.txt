@@ -1,0 +1,95 @@
+0000.004 () Opened log file at time: Fri, 05 Apr 2019 14:49:59 +0000 on http://edp.s3platform.eu
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.10 WP: 5.1.1 PHP: 5.6.36 (cgi-fcgi, Linux ps584226 3.14.52-vs2.3.6.15-1 #1 SMP Wed Nov 2 10:45:38 UTC 2016 x86_64) MySQL: 5.6.34-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.1M | 5.5M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 47962.2 MB
+0000.030 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.043 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.044 () Entity: db
+0000.044 () restore_backup(backup_file=backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-db.gz, type=db, info=a:0:{}, last_one=)
+0000.045 () Unpacking backup... (backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-db.gz, 0.2 Mb)
+0000.045 () Database successfully unpacked
+0000.045 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.045 () Using direct MySQL access; value of use_mysqli is: 1
+0000.277 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.277 () Max packet size: 16 MB
+0000.277 () Entering maintenance mode
+0000.278 () Enabling Maintenance mode&#8230;
+0000.279 () Backup of: http://edp.s3platform.eu
+0000.280 () Content URL: http://edp.s3platform.eu/wp-content
+0000.280 () Uploads URL: http://edp.s3platform.eu/wp-content/uploads
+0000.281 () Old table prefix: wp_
+0000.281 () Site information: multisite=0
+0000.284 () New table prefix: wp_
+0000.305 () Processing table (InnoDB): wp_options
+0000.774 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0000.788 () Processing table (InnoDB): wp_users
+0000.814 () Processing table (InnoDB): wp_usermeta
+0000.939 () Processing table (InnoDB): wp_commentmeta
+0000.954 () Processing table (InnoDB): wp_comments
+0000.976 () Processing table (InnoDB): wp_links
+0000.995 () Processing table (InnoDB): wp_postmeta
+0001.073 () Processing table (InnoDB): wp_posts
+0001.130 () Processing table (InnoDB): wp_term_relationships
+0001.149 () Processing table (InnoDB): wp_term_taxonomy
+0001.246 () Processing table (InnoDB): wp_termmeta
+0001.258 () Processing table (InnoDB): wp_terms
+0001.363 () Processing table (InnoDB): wp_toolset_post_guid_id
+0001.379 () Processing table (InnoDB): wp_ultimate_csv_importer_log_values
+0001.386 () Processing table (InnoDB): wp_ultimate_csv_importer_manageshortcodes
+0001.567 () Processing table (InnoDB): wp_ultimate_csv_importer_shortcodes_statusrel
+0001.582 () Database queries processed: 50 in 1.51 seconds
+0001.849 () Unlocking database and leaving maintenance mode
+0001.849 () Disabling Maintenance mode&#8230;
+0001.850 () Finished: lines processed: 50 in 1.78 seconds
+0001.850 () Cleaning up rubbish...
+0001.862 () Entity: plugins
+0001.862 () restore_backup(backup_file=backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:52:"/home/intelelv1/edp.s3platform.eu/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.862 () Unpacking backup... (backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-plugins.zip, 38.3 MB)
+0001.864 () Unzipping backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-plugins.zip to /home/intelelv1/edp.s3platform.eu/wp-content/upgrade/542dd93e/ using UpdraftPlus_ZipArchive, starting index 0
+0002.538 () Unzip progress: 1840 out of 11364 files (981 B, plugins/layouts/inc/gui/templates/layout-layout-type-selector.box.tpl.php)
+0002.900 () Unzip progress: 2841 out of 11364 files (12 MB, plugins/layouts/inc/gui/templates/layout-not-assigned.tpl.php)
+0003.270 () Unzip progress: 3842 out of 11364 files (25 MB, plugins/layouts/vendor/toolset/toolset-common/toolset-blocks/assets/css/custom.html.block.editor.css)
+0003.612 () Unzip progress: 4843 out of 11364 files (41.5 MB, plugins/toolset-module-manager/onthego-resources/onthegosystems-icons/vectors/types-logo.svg)
+0003.908 () Unzip progress: 5844 out of 11364 files (57.1 MB, plugins/wp-views/vendor/toolset/toolset-common/inc/m2m/association/query/orderby/title.php)
+0004.140 () Unzip progress: 6845 out of 11364 files (62.9 MB, plugins/wp-views/vendor/toolset/toolset-common/visual-editor/res/js/codemirror/demo/visibletabs.html)
+0004.496 () Unzip progress: 7846 out of 11364 files (76.4 MB, plugins/types/vendor/toolset/onthego-resources/onthegosystems-icons/vectors/types.svg)
+0004.797 () Unzip progress: 8847 out of 11364 files (88.8 MB, plugins/types/vendor/toolset/toolset-common/user-editors/medium/screen/content-template/frontend.php)
+0005.099 () Unzip progress: 9848 out of 11364 files (97.1 MB, plugins/types/vendor/twig/twig/lib/Twig/Test/IntegrationTestCase.php)
+0005.378 () Unzip progress: 10849 out of 11364 files (109.5 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/Common/Aws.php)
+0005.589 () Unzip progress: 11364 out of 11364 files (113.1 MB, plugins/white-label-cms/view/index.php)
+0005.599 () Moving old data: filesystem method / updraft_dir is potentially possible
+0005.599 () Moving old data: can potentially use wp_filesystem method / -old
+0005.600 () Moving old data out of the way...
+0005.762 () Top-level entities being moved: index.php, hello.php, akismet, updraftplus
+0005.766 () Moving unpacked backup into place...
+0006.974 () Top-level entities being moved: .svn, akismet, auth0, layouts, toolset-module-manager, types, updraftplus, white-label-cms, wp-views, index.php
+0007.003 () Cleaning up rubbish...
+0007.006 () Entity: themes
+0007.006 () restore_backup(backup_file=backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-themes.zip, type=themes, info=a:2:{s:4:"path";s:51:"/home/intelelv1/edp.s3platform.eu/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0007.007 () Unpacking backup... (backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-themes.zip, 8.9 MB)
+0007.007 () Unzipping backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-themes.zip to /home/intelelv1/edp.s3platform.eu/wp-content/upgrade/cdb1c56a/ using UpdraftPlus_ZipArchive, starting index 0
+0007.213 () Unzip progress: 916 out of 916 files (11.9 MB, themes/twentyfourteen/content-audio.php)
+0007.214 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.214 () Moving old data: can potentially use wp_filesystem method / -old
+0007.214 () Moving old data out of the way...
+0007.239 () Top-level entities being moved: index.php, twentynineteen, twentyseventeen, twentysixteen
+0007.240 () Moving unpacked backup into place...
+0007.337 () Top-level entities being moved: .svn, toolset-starter, toolset-starter-child, twentyeleven, twentyfifteen, twentyfourteen, twentyseventeen, twentysixteen, twentyten, twentythirteen, twentytwelve, index.php
+0007.340 () Cleaning up rubbish...
+0007.343 () Entity: uploads
+0007.343 () restore_backup(backup_file=backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:52:"/home/intelelv1/edp.s3platform.eu/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0007.343 () Unpacking backup... (backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-uploads.zip, 17.2 MB)
+0007.343 () Unzipping backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-uploads.zip to /home/intelelv1/edp.s3platform.eu/wp-content/upgrade/edaf1d0a/ using UpdraftPlus_ZipArchive, starting index 0
+0007.549 () Unzip progress: 187 out of 187 files (17.6 MB, uploads/2017/07/stateaidlawcomplianceforris3implementation.dd-layouts.2017-07-19.zip)
+0007.550 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.550 () Moving old data: can potentially use wp_filesystem method / -old
+0007.550 () Moving old data out of the way...
+0007.551 () Moving unpacked backup into place...
+0007.574 () Cleaning up rubbish...
+0007.578 () Entity: others
+0007.578 () restore_backup(backup_file=backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-others.zip, type=others, info=a:2:{s:4:"path";s:44:"/home/intelelv1/edp.s3platform.eu/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0007.578 () Unpacking backup... (backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-others.zip, 0 MB)
+0007.578 () Unzipping backup_2018-12-02-0228_EDP_focus_groups_4a3a63799f49-others.zip to /home/intelelv1/edp.s3platform.eu/wp-content/upgrade/b99d89c4/ using UpdraftPlus_ZipArchive, starting index 0
+0007.583 () Unzip progress: 15 out of 15 files (667 B, .svn/text-base/index.php.svn-base)
+0007.584 () Cleaning up rubbish...
+0007.599 () Restore successful!
+0007.599 () Restore successful

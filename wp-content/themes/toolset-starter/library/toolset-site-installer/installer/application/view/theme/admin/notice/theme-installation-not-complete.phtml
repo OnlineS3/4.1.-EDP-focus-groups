@@ -1,0 +1,18 @@
+<?php
+/**
+* Template File
+* This file is only used when Toolset Common is not available
+*/
+?>
+<div id="tt-installation-not-complete" class="notice notice-info">
+	<p>
+        <?php printf(
+            __( 'The installation of your theme <b>%s</b> is not completed.', 'toolset-themes' ),
+            wp_get_theme()->get( 'Name' ) );
+        ?>
+    </p>
+	<p>
+		<a href="<?php echo esc_url( admin_url( 'index.php?page=' . TT_Controller_Site_Installer::PAGE ) ); ?>"
+           class="button-primary"><?php _e( 'Finish Installation', 'toolset-themes' ); ?></a>
+	</p>
+</div>

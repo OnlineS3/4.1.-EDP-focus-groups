@@ -1,0 +1,78 @@
+<?php
+/** @var $this TT_Step_Plugin_Installation */
+
+// title
+$step_title         = __( 'Plugin Installation', 'toolset-themes' );
+
+// plugin status
+$status_messages    = array(
+	TT_Plugin::STATUS_ACTIVE        => __( 'active', 'toolset-themes' ),
+	TT_Plugin::STATUS_INSTALLED     => __( 'installed, but not active', 'toolset-themes' ),
+	TT_Plugin::STATUS_NOT_INSTALLED => __( 'not installed', 'toolset-themes' ),
+);
+
+?>
+<div class="tt-step sized-container"
+     data-msg-missing-requirements="<p><?php _e( 'Not all required plugins are installed.<br />Do you really want to continue?', 'toolset-themes' ); ?></p>">
+	<h1><?php echo $this->getTitle(); ?></h1>
+
+	<p>
+		<?php _e( 'These plugins will be installed and activated:', 'toolset-themes' ); ?>
+	</p>
+
+	<div  class="tbl-content">
+		<table id="plugins" cellpadding="0" cellspacing="0" border="0">
+			<thead>
+			<tr>
+				<th><?php _e( 'Plugin', 'toolset-themes' ); ?></th>
+				<th><?php _e( 'Status', 'toolset-themes' ); ?></th>
+			</tr>
+			</thead>
+			<tbody>
+			<?php
+			foreach( $this->getPlugins() as $id => $plugin ):
+				$name = $plugin->isRequired()
+					? $plugin->getName() . ' *'
+					: $plugin->getName();
+
+				$progress = $plugin->getStatus() == TT_Plugin::STATUS_NOT_INSTALLED
+					? __( 'Downloading plugin, please wait...', 'toolset-themes' )
+					: __( 'Activating plugin, please wait...', 'toolset-themes' );
+
+				$disabled = ( $plugin->isRequired() || $plugin->getStatus() == TT_Plugin::STATUS_ACTIVE )
+					? ' disabled="disabled"'
+					: '';
+			?>
+				<tr<?php if( $plugin->isExtension() ) { echo ' style="display:none"'; } ?>>
+					<td>
+						<input type="checkbox" data-extension="<?php echo $plugin->isExtension() ? '1' : '0'; ?>" data-active="<?php echo $plugin->getStatus() == TT_Plugin::STATUS_ACTIVE ? 1 : 0; ?>" id="<?php echo $id;?>" value="<?php echo $id;?>" <?php if( ! $plugin->isExtension() ): ?> checked="checked"<?php endif; echo $disabled; ?> />
+						<label for="<?php echo $id;?>"><?php echo $name; ?></label>
+					</td>
+					<td width="80%" id="<?php echo $id;?>-status">
+						<span class="status"><?php echo $status_messages[$plugin->getStatus()]; ?></span>
+						<div class="progressbar" style="display:none;">
+							<span><?php echo $progress; ?></span>
+						</div>
+					</td>
+				</tr>
+			<?php endforeach; ?>
+			</tbody>
+		</table>
+	</div>
+	<p class="description small">* <?php _e( 'Required Plugin', 'toolset-themes' ); ?></p>
+</div>
+
+
+<script type="text/template" id="dialog-host-not-allowed">
+    <p><?php _e( 'This theme was built for a specific domain and not for unlimited distribution. You can install it on the domain it\'s built for, or move the theme to this domain. This change needs to happen in the author\'s Toolset account.', 'toolset-themes' ); ?></p>
+</script>
+
+<script type="text/template" id="dialog-cannot-connect-to-server">
+    <p><?php _e( 'The installer is trying to connect with <nobr>wp-types.com</nobr>, but is failing. Usually, 
+    this is a result of a firewall blocked outgoing connection from the hosting company.', 'toolset-themes' ); ?></p>
+
+    <p><?php _e( 'Please contact your hosting company and ask them to allow outgoing connections to:', 'toolset-themes' ); ?>
+        <br /><nobr>themes-repository.wp-types.com</nobr></p>
+
+    <p><i><?php _e( 'You will be able to continue setup once connection is enabled.', 'toolset-themes' ); ?></i></p>
+</script>

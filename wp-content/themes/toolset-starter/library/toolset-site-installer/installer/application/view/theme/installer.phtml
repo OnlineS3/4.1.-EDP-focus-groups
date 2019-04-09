@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+    <title><?php echo $this->getContext()->strInstallerTitle() ?></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'/>
+    <?php wp_print_styles(array('tt-installer-css')); ?>
+</head>
+<body>
+
+<div id="dialog-confirm" title="<?php _e('Are you sure?', 'toolset-themes'); ?>">
+    <div id="dialog-confirm-content"></div>
+</div>
+
+<h1 class="headline">
+    <?php echo $this->getContext()->strInstallerTitle() ?>
+</h1>
+
+<div class="pagination-container full-width-container">
+    <div class="sized-container">
+        <div class="pagination">
+            <?php
+            /** @var $this TT_Theme_Installer */
+            foreach ($this->getSteps() as $step):
+                // we "echo" here to make sure having no whitespaces between elements
+                $css_step_completed = $step->isFinished() ? ' complete' : '';
+                $css_progress_bar   = $step->isFinished() ? ' style="width:100%;"' : '';
+                echo
+                    '<div class="indicator' . $css_step_completed . '" data-step="' . $step->getSlug() . '">'
+                    . '<div class="tag">' . $step->getTitle() . '</div>'
+                    . '</div>'
+                    . '<div class="progress-bar-container">'
+                    . '<div class="progress-bar"' . $css_progress_bar . '></div>'
+                    . '</div>';
+            endforeach; ?>
+        </div>
+    </div>
+</div>
+
+<div class="viewport full-width-container box-shadow">
+    <div style="overflow:hidden;">
+        <ul class="slide-container" style="display:none;">
+            <?php foreach ($this->getSteps() as $step): ?>
+                <li data-tag="<?php echo $step->getTitle(); ?>" class="slide">
+                    <?php if ($step->isFinished()) {
+                        $step->render();
+                    } ?>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+</div>
+
+<div class="full-width-container">
+    <div class="button-container sized-container">
+        <a href="<?php echo get_admin_url(); ?>"
+           id="tt-exit-installer">[ <?php _e( 'Exit Setup', 'toolset-themes' ); ?> ]</a>
+        <button class="next"><span><?php _e('next', 'toolset-themes'); ?></span></button>
+        <button class="exit" style="display: none;" data-url="<?php echo admin_url(); ?>">
+            <span><?php _e('exit installer', 'toolset-themes'); ?></span></button>
+        <button class="previous" style="display: none;"><span><?php _e('previous', 'toolset-themes'); ?></span></button>
+    </div>
+</div>
+
+<?php wp_print_scripts('tt-installer-js'); ?>
+</body>
+</html>

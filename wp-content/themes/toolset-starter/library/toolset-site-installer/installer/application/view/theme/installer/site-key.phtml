@@ -1,0 +1,33 @@
+<?php
+/** @var $this TT_Step_Plugin_Installation */
+
+// title
+$step_title = __('Site Key', 'toolset-themes'); ?>
+
+<div class="tt-step sized-container"
+     data-msg-missing-requirements="<p><?php _e( 'To continue you need to set a valid Site Key.', 'toolset-themes' ); ?></p>"
+     data-missing-requirements-block="<?php _e( 'Set Site Key', 'toolset-themes' ); ?>">
+    <h1><?php echo $this->getTitle(); ?></h1>
+
+    <p>
+	    <?php _e( 'The installer needs to get several Toolset plugins. For this, it needs a Site Key.', 'toolset-themes' ); ?>
+    </p>
+
+    <p class="tt-input-container">
+        <input class="tt-input-text tt-input-required"
+               type="text"
+               name="site_key"
+               id="site_key"
+               value="<?php echo $this->settings->getProtocol()->getSiteKey(); ?>"/>
+        <label for="site_key"><?php _e( 'Your Site Key', 'toolset-themes' ); ?></label>
+    </p>
+
+    <p>
+        <?php _e( 'Don\'t have a key for this site yet?', 'toolset-themes' ); ?>
+        <?php $site_url = site_url(); ?>
+        <a class="tt-btn tt-btn-small tt-no-text-capitalize"
+           target="_blank"
+           href="https://wp-types.com/account/sites/?add=<?php echo urlencode( $site_url ); ?>"
+        ><?php printf( __( 'Generate a Site Key for %s', 'toolset-themes' ), parse_url( $site_url, PHP_URL_HOST ) ); ?></a>
+    </p>
+</div>

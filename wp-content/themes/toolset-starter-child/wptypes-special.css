@@ -1,0 +1,12 @@
+/*
+CSS rules for wptypes plugin
+*/
+
+/*
+Remove "fields and views" button above post edit for non admin users
+https://wp-types.com/forums/topic/how-to-remove-fields-and-views-button-above-post-edit-for-non-admin-users/
+*/
+
+span.button.js-wpv-fields-and-views-in-toolbar, span.cred-media-button.cred-form-shortcode-button2, span.button.js-wpcf-access-editor-button, a.button.button-primary-toolset.js-layout-private-add-new-top, div#wpddl_template.postbox { 
+    display:none !important; 
+}
